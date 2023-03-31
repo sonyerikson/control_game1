@@ -1,10 +1,10 @@
 @media only screen and (min-width: 1280px) {
-  .all {
+  .poster {
     position: absolute;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, 0%);
-    max-width: 1420px
+    max-width: 1280px
   }
 }  /* Desktop */
 
@@ -13,40 +13,13 @@
 }  /* Laptop */
 
 @media only screen and (min-device-width: 600px) and (max-device-width: 1024px) {
-  .all {
-    position: absolute;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, 0%);
-  }
-  .buttoms {
-    display: flex;
-    position: relative;
-    top: -223px;
-    left: 519px;
-    margin-left: 64px;
-}
-
-}
- /* iPad */
-
-@media only screen and (min-device-width: 600px) and (max-device-width: 1024px) and (orientation: portrait) {
-  .all {
-    position: absolute;
-    top: 1075px;
-    left: -50%;
-    margin-left: 0%;
-    transform: translate(-50%, 0%);
-    max-width: 1420px;
-    transform: scale(2.7);
-  }
   .name {
     position: relative;
     height: 70%;
-    top: 146px;
-    right: -10%;
+    top: 93px;
+    right: -100%;
     font-family: 'OffBitTrial-101Bold';
-    font-size: 214px;
+    font-size: 314px;
     line-height: 78.5%;
     letter-spacing: 0.01em;
     text-transform: uppercase;
@@ -54,12 +27,24 @@
     -webkit-text-stroke-color: #000000;
     color: #FF4B00;
     mix-blend-mode: multiply;
-    transform: rotate(90deg);
 }
-.alldark {
-  position: relative;
-  top: 22px;
-  left: 120px;
+}  /* iPad */
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .name {
+    position: relative;
+    height: 70%;
+    top: 93px;
+    right: -100%;
+    font-family: 'OffBitTrial-101Bold';
+    font-size: 314px;
+    line-height: 78.5%;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 2.6px;
+    -webkit-text-stroke-color: #000000;
+    color: #FF4B00;
+    mix-blend-mode: multiply;
 }
 }  /* iPad Portrait */
 
@@ -79,56 +64,8 @@
     color: #FF4B00;
     mix-blend-mode: multiply;
 }
-.buttoms {
-  display: flex;
-  position: relative;
-  top: -223px;
-  left: 519px;
-  margin-left: 64px;
-}
 }  /* iPad Landscape */
 
 @media only screen and (min-device-width: 1px) and (max-device-width: 600px) {
-  .all {
-    position: absolute;
-    top: 1075px;
-    left: -50%;
-    margin-left: 0%;
-    transform: translate(-50%, 0%);
-    max-width: 1420px;
-    transform: scale(2.7);
-  }
-  .name {
-    position: relative;
-    height: 70%;
-    top: 146px;
-    right: -10%;
-    font-family: 'OffBitTrial-101Bold';
-    font-size: 214px;
-    line-height: 78.5%;
-    letter-spacing: 0.01em;
-    text-transform: uppercase;
-    -webkit-text-stroke-width: 2.6px;
-    -webkit-text-stroke-color: #000000;
-    color: #FF4B00;
-    mix-blend-mode: multiply;
-    transform: rotate(90deg);
-}
-.alldark {
-  position: relative;
-  top: 22px;
-  left: 120px;
-}
-.buttoms {
-  display: flex;
-  position: relative;
-  top: 14px;
-  left: 486px;
-  margin-left: 64px;
-} 
-
-.buttom1, .buttom2 {
-background-color: white;
-}
-
-/* iPhone */
+  
+}  /* iPhone */
