@@ -242,7 +242,7 @@ $(document).ready(function(){
           $(".comp").fadeOut(300);
          })
          $(".floor1").click(function(){
-          $(".lamp").fadeOut(300);
+          $(".floor1").fadeOut(300);
          })
          // ВТОРОЙ БЛОК
 
