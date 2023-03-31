@@ -1,0 +1,71 @@
+@media only screen and (min-width: 1280px) {
+  .poster {
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0%);
+    max-width: 1280px
+  }
+}  /* Desktop */
+
+@media only screen and (min-width: 1024px) {
+
+}  /* Laptop */
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 1024px) {
+  .name {
+    position: relative;
+    height: 70%;
+    top: 93px;
+    right: -100%;
+    font-family: 'OffBitTrial-101Bold';
+    font-size: 314px;
+    line-height: 78.5%;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 2.6px;
+    -webkit-text-stroke-color: #000000;
+    color: #FF4B00;
+    mix-blend-mode: multiply;
+}
+}  /* iPad */
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .name {
+    position: relative;
+    height: 70%;
+    top: 93px;
+    right: -100%;
+    font-family: 'OffBitTrial-101Bold';
+    font-size: 314px;
+    line-height: 78.5%;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 2.6px;
+    -webkit-text-stroke-color: #000000;
+    color: #FF4B00;
+    mix-blend-mode: multiply;
+}
+}  /* iPad Portrait */
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .name {
+    position: relative;
+    height: 70%;
+    top: 93px;
+    right: -100%;
+    font-family: 'OffBitTrial-101Bold';
+    font-size: 314px;
+    line-height: 78.5%;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 2.6px;
+    -webkit-text-stroke-color: #000000;
+    color: #FF4B00;
+    mix-blend-mode: multiply;
+}
+}  /* iPad Landscape */
+
+@media only screen and (min-device-width: 1px) and (max-device-width: 600px) {
+  
+}  /* iPhone */

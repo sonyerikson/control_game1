@@ -1,0 +1,24 @@
+@import 'reset.css';
+@import 'content.css';
+@import 'responsive.css';
+@font-face {
+    font-family: "OffBitTrial-Bold";
+    src: url("../fonts/OffBitTrial-Bold.ttf")
+}
+@font-face {
+    font-family: "OffBitTrial-101Bold";
+    src: url("../fonts/OffBitTrial-101Bold.ttf")
+}
+@font-face {
+    font-family: "OffBitTrial-DotBold";
+    src: url("../fonts/OffBitTrial-DotBold.ttf")
+}
+@font-face {
+    font-family: "FactorA";
+    src: url("../fonts/FactorA-Regular.ttf")
+}
+@font-face {
+    font-family: "FactorA-Medium";
+    src: url("../fonts/FactorA-Medium.ttf")
+}
+
